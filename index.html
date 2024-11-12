@@ -9,17 +9,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hola Hermosa!</h1>
-        <h2 class="italic">Date Night</h2>
-        <p class="main-text">Tonight is the night where you just sit back and enjoy yourself.</p>
-        <p class="main-text">Dress code: Any dress, with heels</p>
-        <p class="main-text">Date: 14th November</p>
-        <p class="main-text">First activity starts at 8pm, Second starts at 8:45pm.</p>
-        <p class="main-text">An Uber will be sent to this address by 7:30: 343 Hiii kdfkf</p>
-        <p class="italic">Have fun!</p>
-        <button onclick="revealLocation()">Click to reveal the address</button>
-        <p id="address" style="display:none;">The location will be revealed closer to the time!</p>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Hola Hermosa!</h1>
+            <h2 class="italic">Date Night</h2>
+        </header>
+
+        <div class="content">
+            <p class="description">Tonight is the night where you just sit back and enjoy yourself.</p>
+            
+            <div class="details">
+                <p><strong>Dress code:</strong> Any dress, with heels</p>
+                <p><strong>Date:</strong> 14th November</p>
+                <p><strong>First activity:</strong> 8pm</p>
+                <p><strong>Second activity:</strong> 8:45pm</p>
+            </div>
+
+            <div class="info">
+                <p>An Uber will be sent to this address by 7:30:</p>
+                <p><strong>343 Hiii kdfkf</strong></p>
+            </div>
+
+            <footer>
+                <p class="italic">Have fun!</p>
+            </footer>
+        </div>
     </div>
 
     <!-- Link to the external JavaScript file -->
